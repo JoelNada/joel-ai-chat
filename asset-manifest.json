@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/joel-ai-chat/static/css/main.30e2ac5b.css",
+    "main.js": "/joel-ai-chat/static/js/main.59acfd80.js",
+    "static/js/787.6300ce1f.chunk.js": "/joel-ai-chat/static/js/787.6300ce1f.chunk.js",
+    "index.html": "/joel-ai-chat/index.html",
+    "main.30e2ac5b.css.map": "/joel-ai-chat/static/css/main.30e2ac5b.css.map",
+    "main.59acfd80.js.map": "/joel-ai-chat/static/js/main.59acfd80.js.map",
+    "787.6300ce1f.chunk.js.map": "/joel-ai-chat/static/js/787.6300ce1f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30e2ac5b.css",
+    "static/js/main.59acfd80.js"
+  ]
+}
