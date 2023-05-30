@@ -1,0 +1,80 @@
+.login-card {
+  padding: 20px 20px 20px 20px;
+  border-radius: 5px;
+  background-color: white;
+  width: 30%;
+  box-shadow: 0 0 1px rgb(0, 0, 0, 0.2);
+}
+
+.login-background {
+  background-color: #ffcfdf;
+  background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
+}
+
+.login-card2 {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  width: 100%;
+  height: 60%;
+  text-align: justify;
+  white-space: pre-line;
+  box-shadow: 0 0 2px black;
+}
+
+.input-container {
+  position: relative;
+  width: 50%;
+  background-color: #ccc;
+  padding: 10px 15px 10px 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.input-field {
+  width: 100%;
+  outline: none;
+  padding-right: 30px;
+  border: none;
+  background-color: #ccc;
+  /* Adjust the padding to create space for the icon */
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  /* Adjust the right value to position the icon */
+  transform: translateY(-50%);
+  width: 20px;
+  /* Adjust the width and height according to your icon size */
+  height: 20px;
+}
+
+.login-question {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  width: 30%;
+  text-align: center;
+  box-shadow: 0 0 1px rgb(0, 0, 0, 0.2);
+}
+
+.effect-login {
+  color: blue;
+  cursor: pointer;
+}
+
+.effect-login:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 652px) {
+  .login-card {
+    width: 90%;
+  }
+  .login-question {
+    width: 90%;
+  }
+}
