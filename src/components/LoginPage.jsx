@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Form, Button, ToastContainer, Toast } from "react-bootstrap";
+import { Form, Button, ToastContainer, Toast, Spinner } from "react-bootstrap";
 import { useForm } from "react-hook-form";
 import { loginFunction } from "../apiHandling/apiCaller";
 import { useNavigate, Link } from "react-router-dom";
@@ -7,14 +7,17 @@ const LoginPage = () => {
   const navigate = useNavigate();
   const [err, setErr] = useState("");
   const [showToast, setToast] = useState(false);
+  const [buffer, setBuffer] = useState(false);
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm();
   const onSubmit = (data) => {
+    setBuffer(true);
     loginFunction(data)
       .then((res) => {
+        setBuffer(false);
         console.log(res.data);
         if (res.data === "success") {
           navigate("/home");
@@ -45,6 +48,23 @@ const LoginPage = () => {
             alignItems: "center",
           }}
         >
+          {buffer ? (
+            <div
+              style={{
+                backgroundColor: "#fff",
+                width: "30%",
+                padding: "10px",
+                borderRadius: "5px",
+                marginBottom: "10px",
+                textAlign: "center",
+              }}
+            >
+              <Spinner size="sm" color="blue" /> Validating
+            </div>
+          ) : (
+            ""
+          )}
+
           <div className="login-card">
             <h3 className="text-dark">Hello, Please Login.</h3>
             <Form onSubmit={handleSubmit(onSubmit)}>
