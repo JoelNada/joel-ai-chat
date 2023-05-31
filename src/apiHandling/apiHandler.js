@@ -2,8 +2,8 @@ import axios from "axios";
 
 export const apiCall = async (method, url, params) => {
   const body = method === ("get" || "GET") ? "params" : "data";
-  const URL = process.env.REACT_APP_BP_URL;
-
+  const URL = "https://joel-ai-chat-api.onrender.com";
+  console.log(URL);
   const config = {
     method,
     url,
