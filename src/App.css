@@ -77,4 +77,7 @@
   .login-question {
     width: 90%;
   }
+  .input-container {
+    width: 100%;
+  }
 }

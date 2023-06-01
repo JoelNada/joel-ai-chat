@@ -23,7 +23,7 @@ const HomePage = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container ">
       <h2> Hello There </h2>
       <div className="input-container ">
         <div style={{ width: "100%" }}>
@@ -55,12 +55,14 @@ const HomePage = () => {
           <br />
           <br />
           Ans&nbsp;:&nbsp;{response}
+          <br />
         </div>
       ) : condition ? (
         <Spinner animation="border" />
       ) : (
         ""
       )}
+      <br />
     </div>
   );
 };
