@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/joel-ai-chat/static/css/main.30e2ac5b.css",
-    "main.js": "/joel-ai-chat/static/js/main.93cb109e.js",
+    "main.css": "/joel-ai-chat/static/css/main.0f4687f5.css",
+    "main.js": "/joel-ai-chat/static/js/main.f6370106.js",
     "static/js/787.6300ce1f.chunk.js": "/joel-ai-chat/static/js/787.6300ce1f.chunk.js",
     "index.html": "/joel-ai-chat/index.html",
-    "main.30e2ac5b.css.map": "/joel-ai-chat/static/css/main.30e2ac5b.css.map",
-    "main.93cb109e.js.map": "/joel-ai-chat/static/js/main.93cb109e.js.map",
+    "main.0f4687f5.css.map": "/joel-ai-chat/static/css/main.0f4687f5.css.map",
+    "main.f6370106.js.map": "/joel-ai-chat/static/js/main.f6370106.js.map",
     "787.6300ce1f.chunk.js.map": "/joel-ai-chat/static/js/787.6300ce1f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.30e2ac5b.css",
-    "static/js/main.93cb109e.js"
+    "static/css/main.0f4687f5.css",
+    "static/js/main.f6370106.js"
   ]
 }
